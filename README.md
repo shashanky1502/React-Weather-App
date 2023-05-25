@@ -1,30 +1,50 @@
+<<<<<<< HEAD
 ## Weather App
+=======
+# Weather App
+>>>>>>> 3cd2e22fe2aded30ef61a8e04b90ae5d571f0dd1
 
 The Weather App is a web application that allows users to get current weather information for a specific location. By entering the name of a city, users can retrieve real-time weather data including temperature, weather condition, humidity, and more. The app utilizes the OpenWeatherMap API to fetch weather data and provides a user-friendly interface to display the information.
 
 Key Features:
 
+<<<<<<< HEAD
 - Enter the name of a city to retrieve weather data
 - Displays the current temperature, weather condition, and humidity
 - Provides a user-friendly interface with intuitive design
 - Supports auto-suggestions for city names
 - Allows users to get weather data based on their device's location
+=======
+Enter the name of a city to retrieve weather data
+Displays the current temperature, weather condition, and humidity
+Provides a user-friendly interface with intuitive design
+Supports auto-suggestions for city names
+Allows users to get weather data based on their device's location
+>>>>>>> 3cd2e22fe2aded30ef61a8e04b90ae5d571f0dd1
 
 This Weather App is built using React, Axios for API requests, and integrates with the OpenWeatherMap API to fetch weather data. It offers a simple and convenient way to check the weather conditions for any location.
 
 
 ## Installation
 
+<<<<<<< HEAD
 1. Clone the repository: `git clone https://github.com/shashanky1502/React-Weather-App.git`
 2. Install dependencies: `npm install`
 
 ## Technologies
+=======
+1. Clone the repository: `git clone https://github.com/shashanky1502/Weather-App.git`
+2. Install dependencies: `npm install`
+
+##Technologies
+>>>>>>> 3cd2e22fe2aded30ef61a8e04b90ae5d571f0dd1
 1. React
 2. OpenWeatherMap API
 
 ## Usage
 1. Run the application: `npm start`
 2. Open your web browser and visit: `http://localhost:3000`
+<<<<<<< HEAD
 
 ## Screenshots
 
@@ -48,3 +68,5 @@ Feel free to add more screenshots to showcase different aspects of your Weather 
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request on the GitHub repository.
+=======
+>>>>>>> 3cd2e22fe2aded30ef61a8e04b90ae5d571f0dd1
