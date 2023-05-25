@@ -18,9 +18,9 @@ This Weather App is built using React, Axios for API requests, and integrates wi
 1. Clone the repository: `git clone https://github.com/shashanky1502/Weather-App.git`
 2. Install dependencies: `npm install`
 
-#Technologies
-1.React
-2.OpenWeatherMap API
+##Technologies
+1. React
+2. OpenWeatherMap API
 
 ## Usage
 1. Run the application: `npm start`
