@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import InputPage from './components/input';
+import OutputPage from './components/output';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('input');
+  const [city, setCity] = useState('input');
+
+  
+  const handlePageChange = (page, cityName) => {
+    setCurrentPage(page);
+    if (cityName) {
+      setCity(cityName);
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App ">
+      {currentPage === 'input' && <InputPage onPageChange={handlePageChange} />}
+      {currentPage === 'output' && <OutputPage onPageChange={handlePageChange} city={city} />}
     </div>
   );
 }
